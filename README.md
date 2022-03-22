@@ -1,1 +1,1 @@
-# sevencast-frontend
+# sun7-sevencast
