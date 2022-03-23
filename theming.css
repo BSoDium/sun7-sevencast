@@ -1,6 +1,7 @@
 .detailed {
   background-color: rgba(155, 241, 252, 0.178);
   padding: 7px 15px;
+  text-decoration: none;
 }
 
 .spotify {
@@ -12,7 +13,7 @@
   background-color: #000000;
   color: #fff;
 }
-
+/* 
 .facebook {
   background-color: #3b5998;
   color: #fff;
@@ -28,7 +29,7 @@
     #bc1888 100%
   );
   color: #fff;
-}
+} */
 
 @media screen and (max-width: 600px) {
   .wave {
