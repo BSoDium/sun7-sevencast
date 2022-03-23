@@ -94,13 +94,17 @@ body {
 }
 
 .podcast-cover-image {
-  z-index: 1;
   width: 300px;
   height: 300px;
   overflow: hidden;
   border-radius: 15px;
   margin-right: 25px;
-  margin-bottom: 20px;
+}
+
+.left-card {
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 .box-shadow {
@@ -115,6 +119,59 @@ body {
   z-index: 1;
   padding: 10px;
   max-width: 600px;
+}
+
+.social-links-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.social-href {
+  margin-right: 20px;
+  background-color: rgba(155, 241, 252, 0.178);
+  font-size: 0.9em;
+  font-weight: bolder;
+  padding: 6px 11px;
+  border-radius: 10px;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+}
+
+.platform-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.platform-wrapper p {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.platforms {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.platform-href {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font-size: 0.9em;
+  font-weight: bolder;
+  width: fit-content;
+  border-radius: 30px;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+}
+
+.other {
+  margin: 10px;
 }
 
 .title {

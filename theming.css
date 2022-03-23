@@ -1,0 +1,31 @@
+.detailed {
+  background-color: rgba(155, 241, 252, 0.178);
+  padding: 7px 15px;
+}
+
+.spotify {
+  background-color: #1db954;
+  color: #fff;
+}
+
+.deezer {
+  background-color: #000000;
+  color: #fff;
+}
+
+.facebook {
+  background-color: #3b5998;
+  color: #fff;
+}
+
+.instagram {
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  color: #fff;
+}
