@@ -35,7 +35,7 @@ body {
 }
 
 .global-container-wrapper {
-  padding: 40px;
+  padding: 20px;
   transform: translate3d(0, 0, 0);
   overflow: hidden;
   position: relative;
@@ -86,11 +86,12 @@ body {
 
 .episode-list-container {
   padding: 20px;
-  width: fit-content;
+  width: 100%;
+  max-width: 750px;
 }
 
 .episode {
-  width: 700px;
+  width: 100%;
 }
 
 .podcast-cover-image {
@@ -98,13 +99,13 @@ body {
   height: 300px;
   overflow: hidden;
   border-radius: 15px;
-  margin-right: 25px;
 }
 
 .left-card {
   z-index: 1;
   display: flex;
   flex-direction: column;
+  margin: 20px;
 }
 
 .box-shadow {
@@ -117,8 +118,8 @@ body {
 
 .label-wrapper {
   z-index: 1;
-  padding: 10px;
   max-width: 600px;
+  margin: 20px;
 }
 
 .social-links-wrapper {
@@ -129,7 +130,6 @@ body {
 }
 
 .social-href {
-  margin-right: 20px;
   background-color: rgba(155, 241, 252, 0.178);
   font-size: 0.9em;
   font-weight: bolder;
