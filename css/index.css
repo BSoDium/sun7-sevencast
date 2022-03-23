@@ -13,7 +13,7 @@ body {
   background-attachment: fixed;
   background-size: cover;
   background-color: rgb(27, 28, 30);
-  background-image: url("./bg.png");
+  background-image: url("../res/bg.png");
   display: flex;
   align-items: flex-start;
   flex-direction: column;
