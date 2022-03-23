@@ -40,6 +40,7 @@ body {
   overflow: hidden;
   position: relative;
   box-sizing: border-box;
+  max-width: 90%;
 }
 
 .wave {
@@ -87,7 +88,7 @@ body {
 .episode-list-container {
   padding: 20px;
   width: 100%;
-  max-width: 750px;
+  max-width: min(750px, 90%);
 }
 
 .episode {
