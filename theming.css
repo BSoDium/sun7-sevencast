@@ -29,3 +29,10 @@
   );
   color: #fff;
 }
+
+@media screen and (max-width: 600px) {
+  .wave {
+    visibility: hidden;
+    display: none;
+  }
+}
